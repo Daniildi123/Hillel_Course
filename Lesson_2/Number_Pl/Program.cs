@@ -12,7 +12,6 @@ class Program
         Console.WriteLine("Price of the product: $" + price);
         Console.WriteLine("Discount percentage: " + discountPercentage + "%");
         Console.WriteLine("Amount of the discount: $" + discountAmount);
-
         Console.ReadKey();
     }
 }

@@ -14,7 +14,7 @@ class Program
 
         int TotalTimeInSeconds = (hours * 3600) + (minutes * 60) + seconds;
 
-        Console.WriteLine("Total time in seconds: " + TotalTimeInSeconds);
+        Console.WriteLine("Загальний час у секундах: " + TotalTimeInSeconds);
         Console.ReadKey();
     }
 }

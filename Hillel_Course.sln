@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstApp", "FirstApp\FirstApp.csproj", "{4CC94CEF-744E-4A35-9253-155CD767BE0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstApp", "FirstApp\FirstApp.csproj", "{4CC94CEF-744E-4A35-9253-155CD767BE0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number_Pl", "Lesson_2\Number_Pl\Number_Pl.csproj", "{D66D7C50-2DBA-4DCE-B9CA-E9BD15CEFB07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Number_Pl", "Lesson_2\Number_Pl\Number_Pl.csproj", "{D66D7C50-2DBA-4DCE-B9CA-E9BD15CEFB07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book", "Lesson_2\Book\Book.csproj", "{EDF78093-6CB3-4086-B5EA-6621A6AE8292}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D66D7C50-2DBA-4DCE-B9CA-E9BD15CEFB07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D66D7C50-2DBA-4DCE-B9CA-E9BD15CEFB07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D66D7C50-2DBA-4DCE-B9CA-E9BD15CEFB07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDF78093-6CB3-4086-B5EA-6621A6AE8292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF78093-6CB3-4086-B5EA-6621A6AE8292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF78093-6CB3-4086-B5EA-6621A6AE8292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF78093-6CB3-4086-B5EA-6621A6AE8292}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,10 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        double price = 100; 
-        double discountPercentage = 20; 
+        int price = 100;
+        int discountPercentage = 20;
 
-        double discountAmount = price * (discountPercentage / 100);
+        double discountAmount = price * (discountPercentage / 100.0);
 
         Console.WriteLine("Price of the product: $" + price);
         Console.WriteLine("Discount percentage: " + discountPercentage + "%");

@@ -9,8 +9,7 @@ namespace RandomMassif
             int[] array = new int[10];
             Random random = new Random();
 
-          
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < array.Length; i++)
             {
                 array[i] = random.Next(-100, 101);
             }
@@ -18,10 +17,8 @@ namespace RandomMassif
             Console.WriteLine("Початковий масив:");
             PrintArray(array);
 
-            
             int newElement = random.Next(-100, 101);
 
-          
             array = AddElementToArray(array, newElement);
 
             Console.WriteLine($"Масив після додавання елемента {newElement} на початок:");
@@ -30,7 +27,6 @@ namespace RandomMassif
             Console.ReadLine();
         }
 
-       
         static int[] AddElementToArray(int[] arr, int element)
         {
             int[] newArray = new int[arr.Length + 1];
@@ -44,19 +40,9 @@ namespace RandomMassif
             return newArray;
         }
 
-    
         static void PrintArray(int[] arr)
         {
-            Console.Write("{");
-            foreach (var item in arr)
-            {
-                Console.Write(item);
-                if (item != arr[arr.Length - 1])
-                {
-                    Console.Write(", ");
-                }
-            }
-            Console.WriteLine("}");
+            Console.WriteLine(string.Join(", ", arr));
         }
     }
 }

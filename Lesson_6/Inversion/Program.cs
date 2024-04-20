@@ -31,13 +31,6 @@ namespace Inversion
             int[] reversed = new int[arr.Length];
             for (int i = 0; i < arr.Length; i++)
             {
-                reversed[arr.Length - 1 - i] = arr[i];
-            }
-            return reversed;
-        }
-
-        static void ReverseArrayInPlace(int[] arr)
-        {
             int temp;
             int n = arr.Length;
             for (int i = 0; i < n / 2; i++)
@@ -59,7 +52,6 @@ namespace Inversion
                     Console.Write(", ");
                 }
             }
-            Console.WriteLine("}");
         }
     }
 }

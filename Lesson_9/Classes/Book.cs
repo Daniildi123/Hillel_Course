@@ -9,13 +9,13 @@ namespace Classes
     internal class Book
     {
 
-        // Дані книги
+      
         public string Title { get; set; }
         public string Author { get; set; }
         public int Year { get; set; }
         public int Pages { get; set; }
 
-        // Метод для виведення інформації про книгу
+        
         public void DisplayInfo()
         {
             Console.WriteLine("Назва книги: {0}", Title);

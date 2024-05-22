@@ -1,5 +1,6 @@
 ﻿using System;
-
+//3) Потрібно додати до масиву елемент на початок. Нехай масив буде на 10 елементів.
+//Масив заповнити рандомними числами. Той елемент, що потрібно додати, також взяти рандомно. 
 namespace RandomMassif
 {
     class Program
@@ -42,7 +43,11 @@ namespace RandomMassif
 
         static void PrintArray(int[] arr)
         {
-            Console.WriteLine(string.Join(", ", arr));
+            foreach (var item in arr)
+            {
+                Console.Write(item + " ");
+            }
+            Console.WriteLine();
         }
     }
 }
